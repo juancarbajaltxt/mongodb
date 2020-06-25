@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Post Route</title>
+  </head>
+  <body>
+  <h2>New Post</h2>
+  <input type = "text" [(ngModel)]="enteredTitle">
+  <textarea rows = "6" [(ngModel)]="enteredContent"></textarea> <!-- property binding in use:-->
+  <script src = "/server.js"></script>
+  <button onclick="onAddPost()">Enter into DB</button>
+  </body>
+</html>
